@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Магазин</title>
 </head>
 <body>
@@ -67,7 +67,7 @@
                                 </a>
                             </li>
                             <li class="header__navigation_item">
-                                <a class="header__navigation_href _active" href="company.html">
+                                <a class="header__navigation_href" href="company.html">
                                     Компания
                                 </a>
                             </li>
@@ -121,73 +121,97 @@
         <main class="main">
             <div class="container">
                 <div class="main__container">
-                    <div class="company__render">
-                        <section class="section__company company">
-                            <div class="company__left">
-                                <div class="company__aside">
-                                    <ul class="company__navigation">
-                                        <li class="company__navigation_item">
-                                            <div class="company__navigation_title">
-                                                Информация о нас
+                    <section class="section__cart cart">
+                        <div class="section__big-title">
+                            Корзина
+                        </div>
+                        <div class="cart__content">
+                            <div class="cart__content__left">
+                                <ul class="cart__products">
+                                    <li class="cart__product">
+                                        <div class="cart__product_image">
+                                            <img class="cart__product_img" src="img/cart_image.png" alt="">
+                                        </div>
+                                        <div class="cart__product_info">
+                                            <div class="cart__product_info_top">
+                                                <div class="cart__product_title">
+                                                    DUO INLAY SIGNET
+                                                </div>
+                                                <div class="cart__product_company">
+                                                    (Onyx & Mother of Pearl)
+                                                </div>
+                                                <div class="cart__product_delete">
+                                                    Убрать 
+                                                </div>
                                             </div>
-                                        </li>
-                                        <li class="company__navigation_item">
-                                            <a class="company__navigation_href _active" href="?page=about">
-                                                О компании
-                                            </a>
-                                        </li>
-                                        <li class="company__navigation_item">
-                                            <a class="company__navigation_href" href="?page=advantages">
-                                                Преимущества
-                                            </a>
-                                        </li>
-                                        <li class="company__navigation_item">
-                                            <a class="company__navigation_href" href="?page=parthers">
-                                                Наши партнёры
-                                            </a>
-                                        </li>
-                                        <li class="company__navigation_item">
-                                            <a class="company__navigation_href" href="?page=feedback">
-                                                Обратная связь
-                                            </a>
-                                        </li>
-                                    </ul>
+                                            <div class="cart__product_info_bottom">
+                                                <div class="cart__product_count">
+                                                    <div class="cart__product_decrement cart__product_interaction">
+                                                        -
+                                                    </div>
+                                                    <input class="cart__product_number" type="number" value="1">
+                                                    <div class="cart__product_increment cart__product_interaction">
+                                                        +
+                                                    </div>
+                                                </div>
+                                                <div class="cart__product_price">
+                                                    $ 330
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cart__product">
+                                        <div class="cart__product_image">
+                                            <img class="cart__product_img" src="img/cart_image.png" alt="">
+                                        </div>
+                                        <div class="cart__product_info">
+                                            <div class="cart__product_info_top">
+                                                <div class="cart__product_title">
+                                                    DUO INLAY SIGNET
+                                                </div>
+                                                <div class="cart__product_company">
+                                                    (Onyx & Mother of Pearl)
+                                                </div>
+                                                <div class="cart__product_delete">
+                                                    Убрать 
+                                                </div>
+                                            </div>
+                                            <div class="cart__product_info_bottom">
+                                                <div class="cart__product_count">
+                                                    <div class="cart__product_decrement cart__product_interaction">
+                                                        -
+                                                    </div>
+                                                    <input class="cart__product_number" type="number" value="1">
+                                                    <div class="cart__product_increment cart__product_interaction">
+                                                        +
+                                                    </div>
+                                                </div>
+                                                <div class="cart__product_price">
+                                                    $ 330
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cart__content_rigth">
+                                <div class="cart__amount">
+                                    Промежуточный итог:
+                                    <strong>
+                                        $ 3455
+                                    </strong>
+                                </div>
+                                <div class="cart__rigth_buttons">
+                                    <button class="cart__rigth_button">
+                                        Продолжить покупки
+                                    </button>
+                                    <button class="cart__rigth_button">
+                                        Проверить товары 
+                                    </button>
                                 </div>
                             </div>
-                            <div class="company__right about">
-                                <div class="section__title">
-                                    О компании «Acrine»
-                                </div>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <div class="about__image">
-                                    <img src="img/about-installation 1.png" alt="">
-                                </div>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <div class="about__image">
-                                    <img src="img/installation-1 1.png" alt="">
-                                </div>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                            </div>
-                        </section>
-                    </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </main>
@@ -398,4 +422,4 @@
     </div>
     <script async src="js/scipt.js"></script>
 </body>
-</html>
+</html> 

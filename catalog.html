@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Магазин</title>
 </head>
 <body>
@@ -42,7 +42,7 @@
                     <nav class="header__nav">
                         <ul class="header__navigation">
                             <li class="header__navigation_item">
-                                <a class="header__navigation_href header__navigation_catalog" href="catalog.html">
+                                <a class="header__navigation_href header__navigation_catalog _active" href="catalog.html">
                                     <div class="header__navigation_catalog_line"></div>
                                 </a>
                             </li>
@@ -67,7 +67,7 @@
                                 </a>
                             </li>
                             <li class="header__navigation_item">
-                                <a class="header__navigation_href _active" href="company.html">
+                                <a class="header__navigation_href" href="company.html">
                                     Компания
                                 </a>
                             </li>
@@ -121,73 +121,88 @@
         <main class="main">
             <div class="container">
                 <div class="main__container">
-                    <div class="company__render">
-                        <section class="section__company company">
-                            <div class="company__left">
-                                <div class="company__aside">
-                                    <ul class="company__navigation">
-                                        <li class="company__navigation_item">
-                                            <div class="company__navigation_title">
-                                                Информация о нас
+                    <section class="section__catalog catalog">
+                        <div class="catalog__content">
+                            <div class="catalog__content_top">
+                                <div class="catalog__content_top_left">
+                                    <div class="catalog__sort">
+                                        
+                                    </div>
+                                </div>
+                                <div class="catalog__content_top_rigth">
+                                    <div class="catalog__filter">
+                                        <span>
+                                            Filter
+                                        </span>
+                                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M13.555 0.75C13.5536 0.815933 13.5356 0.880444 13.5025 0.9375L9.43751 7.8525V11.25C9.43751 11.3495 9.398 11.4448 9.32767 11.5152C9.25735 11.5855 9.16196 11.625 9.06251 11.625H4.93751C4.83805 11.625 4.74267 11.5855 4.67234 11.5152C4.60201 11.4448 4.56251 11.3495 4.56251 11.25V7.8525L0.497506 0.9375C0.464593 0.880493 0.447266 0.815826 0.447266 0.75C0.447266 0.684174 0.464593 0.619507 0.497506 0.5625C0.531317 0.506792 0.578548 0.460443 0.634884 0.427691C0.69122 0.394937 0.754866 0.376822 0.820006 0.375H13.18C13.2451 0.376822 13.3088 0.394937 13.3651 0.427691C13.4215 0.460443 13.4687 0.506792 13.5025 0.5625C13.5347 0.619915 13.5527 0.684206 13.555 0.75ZM8.68751 10.875V7.7475C8.68719 7.68229 8.70263 7.61797 8.73251 7.56L12.4825 1.125H1.48001L5.26751 7.56C5.29738 7.61797 5.31282 7.68229 5.31251 7.7475V10.875H8.68751Z" fill="#050304"/>
+                                        </svg>                                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog__content_bottom">
+                                <ul class="catalog__products">
+                                    <li class="catalog__product">
+                                        <div class="catalog__product_image">
+                                            <img class="catalog__product_img" src="img/catalog.png " alt="">
+                                        </div>
+                                        <div class="catalog__product_title">
+                                            <div>
+                                                Stone Tetra Hoops
                                             </div>
-                                        </li>
-                                        <li class="company__navigation_item">
-                                            <a class="company__navigation_href _active" href="?page=about">
-                                                О компании
-                                            </a>
-                                        </li>
-                                        <li class="company__navigation_item">
-                                            <a class="company__navigation_href" href="?page=advantages">
-                                                Преимущества
-                                            </a>
-                                        </li>
-                                        <li class="company__navigation_item">
-                                            <a class="company__navigation_href" href="?page=parthers">
-                                                Наши партнёры
-                                            </a>
-                                        </li>
-                                        <li class="company__navigation_item">
-                                            <a class="company__navigation_href" href="?page=feedback">
-                                                Обратная связь
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                            <div>
+                                                (Rutilated Quartz)
+                                            </div>
+                                        </div>
+                                        <div class="catalog__product_interaction">
+                                            <div class="catalog__product_price">
+                                                $ 980
+                                            </div>
+                                            <div class="catalog__product_add">Добавить в корзину</div>
+                                        </div>
+                                    </li>
+                                    <li class="catalog__product">
+                                        <div class="catalog__product_image">
+                                            <img class="catalog__product_img" src="img/catalog.png " alt="">
+                                        </div>
+                                        <div class="catalog__product_title">
+                                            <div>
+                                                Stone Tetra Hoops
+                                            </div>
+                                            <div>
+                                                (Rutilated Quartz)
+                                            </div>
+                                        </div>
+                                        <div class="catalog__product_interaction">
+                                            <div class="catalog__product_price">
+                                                $ 980
+                                            </div>
+                                            <div class="catalog__product_add">Добавить в корзину</div>
+                                        </div>
+                                    </li>
+                                    <li class="catalog__product">
+                                        <div class="catalog__product_image">
+                                            <img class="catalog__product_img" src="img/catalog.png " alt="">
+                                        </div>
+                                        <div class="catalog__product_title">
+                                            <div>
+                                                Stone Tetra Hoops
+                                            </div>
+                                            <div>
+                                                (Rutilated Quartz)
+                                            </div>
+                                        </div>
+                                        <div class="catalog__product_interaction">
+                                            <div class="catalog__product_price">
+                                                $ 980
+                                            </div>
+                                            <div class="catalog__product_add">Добавить в корзину</div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="company__right about">
-                                <div class="section__title">
-                                    О компании «Acrine»
-                                </div>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <div class="about__image">
-                                    <img src="img/about-installation 1.png" alt="">
-                                </div>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <div class="about__image">
-                                    <img src="img/installation-1 1.png" alt="">
-                                </div>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                                <p class="about__p fz-13">
-                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
-                                </p>
-                            </div>
-                        </section>
-                    </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </main>
@@ -398,4 +413,4 @@
     </div>
     <script async src="js/scipt.js"></script>
 </body>
-</html>
+</html> 
