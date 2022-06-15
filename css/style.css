@@ -1578,9 +1578,13 @@ html, body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.cart__product_title {
+.cart__product_href {
     font-size: 20px;
     font-weight: 600;
+}
+
+.cart__product_href:hover {
+    text-decoration: underline;
 }
 
 .cart__product_company {
