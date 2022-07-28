@@ -1,0 +1,39 @@
+.company {
+    display: flex;
+
+    column-gap: 56px;
+}
+
+.company__left {
+    flex: 0 0 24%;
+}
+
+.company__navigation_title {
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+.company__navigation_href {
+    display: inline-block;
+
+    padding: 10px 30px;
+
+    transition: 200ms;
+
+    width: 100%;
+}
+
+.company__navigation_href._active,
+.company__navigation_href:hover {
+    background: var(--default-color);
+
+    color: #FFFFFF;
+}
+
+.company__navigation_href:active {
+    background: var(--default-active);
+}

@@ -1,0 +1,29 @@
+.index-partners__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 70px 70px 104px;
+}
+
+.index-partners {
+    background: url("../img/index_partners (2).png");
+    background-size: cover;
+
+    margin-bottom: 74px;
+}
+
+.index-partners__title {
+    color: #FFFFFF;
+
+    margin-bottom: 44px;
+}
+
+.index-partner__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-gap: 10px;
+
+    width: 100%;
+}

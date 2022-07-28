@@ -1,0 +1,20 @@
+.button {
+    background: var(--default-color);
+    border-radius: 0px 5px;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    text-transform: uppercase;
+
+    transition: 200ms;
+
+    &:hover {
+        background: var(--default-hover);
+    }
+
+    &:active {
+        background: var(--default-active);
+    }
+}
