@@ -87,6 +87,31 @@
     margin-top: 36px;
 }
 
+.footer__social_svg {
+
+    * {
+        transition: 200ms;
+    }
+    
+    &:hover {
+        .footer__social_svg_background {
+            stroke: var(--default-color);
+            fill: var(--default-color);
+        }
+
+        .footer__social_svg_icon {
+            fill: #FFFFFF;
+        }
+    }
+
+    &:active {
+        .footer__social_svg_background {
+            stroke: var(--default-active);
+            fill: var(--default-active);
+        }
+    }
+}
+
 
 
 

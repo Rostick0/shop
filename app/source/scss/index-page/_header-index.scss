@@ -54,6 +54,15 @@
         &::before {
             background: #FFFFFF;
         }
+
+        &:hover,
+        &:active {
+            .header__navigation_catalog_line,
+            &::after,
+            &::before {
+                background: #FFFFFF;
+            }
+        }
     }
 
     .header__navigation_href {
