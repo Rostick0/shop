@@ -10,13 +10,23 @@ function blogPageRender(page, htmlRender) {
                         </div>
                         <div class="blog-page__content">
                             <div class="blog-page__image">
-                                <img class="blog-page__img" src="img/blog-page 1.png" alt="">
+                                <img
+                                class="blog-page__img lazy-loading"
+                                src="data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAEALAAAAAAQAAkAAAIKjI+py+0Po5yUFQA7"
+                                data-src="img/blog-page 1.png"
+                                alt=""
+                                >
                             </div>
                             <p class="blog-page__p">
                                 Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
                             </p>
                             <div class="blog-page__image">
-                                <img class="blog-page__img" src="img/blog-page.png" alt="">
+                                <img
+                                class="blog-page__img lazy-loading"
+                                src="data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAEALAAAAAAQAAkAAAIKjI+py+0Po5yUFQA7"
+                                data-src="img/blog-page.png"
+                                alt=""
+                                >
                             </div>
                             <p class="blog-page__p">
                                 Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил.
@@ -67,25 +77,46 @@ function clothesPageRender(page, htmlRender) {
                             </div>
                             <ul class="clothes-page__images">
                                 <li class="clothes-page__images_item">
-                                    <img src="img/project-thumb.png" alt="">
+                                    <img
+                                    class="lazy-loading"
+                                    src="data:image/gif;base64,R0lGODlhBwAEAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAQAAAIEjI+pWwA7"
+                                    data-src="img/project-thumb.png" alt="">
                                 </li>
                                 <li class="clothes-page__images_item">
-                                    <img src="img/project-thumb (1).png" alt="">
+                                    <img
+                                    class="lazy-loading"
+                                    src="data:image/gif;base64,R0lGODlhBwAEAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAQAAAIEjI+pWwA7"
+                                    data-src="img/project-thumb (1).png" alt="">
                                 </li>
                                 <li class="clothes-page__images_item">
-                                    <img src="img/project-thumb (2).png" alt="">
+                                    <img
+                                    class="lazy-loading"
+                                    src="data:image/gif;base64,R0lGODlhBwAEAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAQAAAIEjI+pWwA7"
+                                    data-src="img/project-thumb (2).png" alt="">
                                 </li>
                                 <li class="clothes-page__images_item">
-                                    <img src="img/project-thumb (3).png" alt="">
+                                    <img
+                                    class="lazy-loading"
+                                    src="data:image/gif;base64,R0lGODlhBwAEAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAQAAAIEjI+pWwA7"
+                                    data-src="img/project-thumb (3).png" alt="">
                                 </li>
                                 <li class="clothes-page__images_item">
-                                    <img src="img/project-thumb (4).png" alt="">
+                                    <img
+                                    class="lazy-loading"
+                                    src="data:image/gif;base64,R0lGODlhBwAEAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAQAAAIEjI+pWwA7"
+                                    data-src="img/project-thumb (4).png" alt="">
                                 </li>
                                 <li class="clothes-page__images_item">
-                                    <img src="img/project-thumb (5).png" alt="">
+                                    <img
+                                    class="lazy-loading"
+                                    src="data:image/gif;base64,R0lGODlhBwAEAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAQAAAIEjI+pWwA7"
+                                    data-src="img/project-thumb (5).png" alt="">
                                 </li>
                                 <li class="clothes-page__images_item">
-                                    <img src="img/project-thumb (6).png" alt="">
+                                    <img
+                                    class="lazy-loading"
+                                    src="data:image/gif;base64,R0lGODlhBwAEAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAQAAAIEjI+pWwA7"
+                                    data-src="img/project-thumb (6).png" alt="">
                                 </li>
                             </ul>
                         </div>
